@@ -51,6 +51,10 @@ class SiteController extends Controller
     {
         return $this->render('index');
     }
+    public function actionTest()
+    {
+        return $this->renderPartial('test.tpl',['username'=>'test']);
+    }
 
     public function actionLogin()
     {
