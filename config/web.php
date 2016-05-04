@@ -11,14 +11,14 @@ $config = [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'kDDhsoOPAtPChxYfF3eid9zJK3IVwF70',
         ],
-	'view' => [
-	    'class' => 'yii\web\View',
-	    'renderers' => [
-	        'tpl' => [
-	        'class' => 'yii\smarty\ViewRenderer',
-	        //'cachePath' => '@runtime/Smarty/cache',
-	        ],
-	    ],
+		'view' => [
+			'class' => 'yii\web\View',
+			'renderers' => [
+				'tpl' => [
+				'class' => 'yii\smarty\ViewRenderer',
+				//'cachePath' => '@runtime/Smarty/cache',
+				],
+			],
         ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
